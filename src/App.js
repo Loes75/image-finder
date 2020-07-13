@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import Buscador from './componentes/Buscador'
 import Resultado from './componentes/Resultado'
+import Background from './img/background.jpg'
 
 class App extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class App extends Component {
        pagina : ""
     }
   }
+  
   scroll = () =>{
     const elemento = document.querySelector('.jumbotron');
     elemento.scrollIntoView('smooth','start');
@@ -57,6 +59,8 @@ class App extends Component {
   }
 
   render() {
+    var background = Background;
+    document.body.style.backgroundImage= `url(${background})`;
     return (
       <div className="app container">
         <div className="jumbotron">
