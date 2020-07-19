@@ -29,4 +29,4 @@ You will need node and npm installed globally on your machine.
 
 ## Remember
 
-* You need an account in [Pixabay](https://pixabay.com/es/)
+* You need an account and API key from [Pixabay](https://pixabay.com/es/)
